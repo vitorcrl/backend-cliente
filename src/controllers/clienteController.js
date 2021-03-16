@@ -51,6 +51,7 @@ exports.SelectDetail = (req, res, next) => {
         })
         .catch((error) => next(error));
 };
+
 exports.Update = (req, res, next) => {
     const id = req.params.id;
     const nome = req.body.nome;
