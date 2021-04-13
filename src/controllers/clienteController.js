@@ -1,5 +1,5 @@
 // Define a utilização do model cliente e a dependência http-status
-const Produto = require("../models/client");
+const Cliente = require("../models/client");
 const status = require("http-status");
 
 // Cria o método Insert, obtendo os dados da request
